@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body {
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: url("../images/redd-3mWxKnqET3E-unsplash.jpg");
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.menu li a:hover {
+    background: coral;
+    color: #333;
+    border-radius: 10px;
+}
+
+.ment {
+    margin-top: 15px;
+    color: white;
+}

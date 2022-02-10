@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Questrial&display=swap'); */
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: -200px;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu li a:hover {
+    background: coral;
+    color: #333;
+    border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../images/lmao.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 280px;
+    margin: 5rem auto;
+    border: .2px solid rgb(241, 238, 238);
+    padding: .4rem .9rem;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 250px;
+    position: relative;
+    padding-top: 70px;
+}
+
+img {
+    height: 100px;
+    position: absolute;
+    left: 32%;
+    bottom: 74%;
+}
+
+.signin h1 {
+    margin-bottom: 2rem;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(182, 93, 182);
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+}
+
+input {
+    padding: .5rem .4rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+#inpp {
+    width: 100%;
+    padding: .5rem .4rem;
+    background-color: rgb(182, 93, 182);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+    margin: 30px 0;
+}
+
+#php {
+    color: white;
+}
